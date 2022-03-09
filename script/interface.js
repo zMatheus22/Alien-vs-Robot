@@ -13,12 +13,11 @@ function handClick(event) {
 
   if (handleMove(position)) {
     setTimeout(() => {
-      if(playerTime == 0){
+      if (playerTime == 0) {
         alert(`👽 O Alien Ganhou 👽`);
-      }else{
+      } else {
         alert(`🤖 O Robot Ganhou 🤖`);
       }
-      
     }, 10);
   }
   updadeSquares();
